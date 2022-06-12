@@ -199,13 +199,15 @@ img {
 
 .skills,
 .code,
-.education {
+.education,
+.languages {
     padding: 40px 50px 40px 100px;
 }
 
 .skills-title,
 .education-title,
-.code-title {
+.code-title,
+.languages-title {
     display: inline-block;
     margin: 0 0 20px 0;
     padding: 20px;
@@ -217,12 +219,14 @@ img {
 }
 
 .skills-items,
-.education-items {
+.education-items,
+.languages-items {
     line-height: 20px;
 }
 
 .skill-item,
-.education-item {
+.education-item,
+.languages-item {
     padding: 10px;
 }
 
@@ -243,5 +247,5 @@ img {
 }
 
 .education-text {
-    padding: 0 0 10px 0;
+    padding: 10px 0 20px 0;
 }
