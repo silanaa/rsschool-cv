@@ -144,12 +144,10 @@ img {
 }
 
 .contacts,
-.summary,
-.skills,
 .code,
 .education,
 .languages,
-.left-wrapper {
+.right-wrapper {
     width: 50%;
 }
 
@@ -184,7 +182,7 @@ img {
     line-height: 50px;
 }
 
-.title {
+.summary-title {
     margin: 0 0 20px 0;
     font-size: 22px;
     font-weight: 500;
@@ -198,6 +196,33 @@ img {
     background-color: rgb(233, 222, 237);
     border-radius: 30px 0 0 30px;
     overflow: auto;
+}
+
+.skills {
+    padding: 40px 50px 40px 100px;
+}
+
+.skills-title {
+    display: inline-block;
+    margin: 0 0 20px 0;
+    padding: 20px;
+    font-size: 22px;
+    font-weight: 500;
+    color: white;
+    background-color: rgb(80, 66, 67);
+    border-radius: 30px;
+}
+
+.skills-item img {
+    margin: 0 20px 5px 0;
+}
+
+.skills-items {
+    line-height: 20px;
+}
+
+.skill-item {
+    padding: 10px;
 }
 
 
