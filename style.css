@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300italic,regular,italic,500,500italic,700,700italic,900,900italic&display=swap&subset=cyrillic-ext');
+
 /* обнуление стилей */
 
 * {
@@ -38,6 +40,7 @@ body {
     font-size: 100%;
     line-height: 1;
     font-size: 18px;
+    font-family: Roboto, Arial, sans-serif;
     -ms-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
