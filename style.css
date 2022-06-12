@@ -107,6 +107,10 @@ img {
     background-color: rgb(218, 200, 190);
 }
 
+.header-wrapper {
+    margin: 0 0 20px 0;
+}
+
 .nav-list {
     display: flex;
     justify-content: flex-end;
@@ -125,8 +129,58 @@ img {
     text-transform: uppercase;
 }
 
-.nav-item a:hover {
+.contacts-item a {
+    transition: color 0.5s;
+}
+
+.nav-item a:hover,
+.contacts-item a:hover {
     color: rgb(141, 104, 88);
+}
+
+.main-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contacts,
+.summary,
+.skills,
+.code,
+.education,
+.languages {
+    width: 50%;
+}
+
+.contacts {
+    padding: 40px 50px;
+    background-color: rgb(233, 222, 237);
+    border-radius: 20px;
+}
+
+.contacts-title {
+    margin: 0 0 10px 0;
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(80, 66, 67);
+}
+
+.contacts-avatar img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.contacts-avatar {
+    margin: 0 0 10px 0;
+}
+
+.contacts-item img {
+    margin: 0 20px 5px 0;
+    max-width: 50px;
+}
+
+.contacts-item {
+    line-height: 50px;
 }
 
 
