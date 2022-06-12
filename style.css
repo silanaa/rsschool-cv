@@ -197,7 +197,9 @@ img {
     overflow: auto;
 }
 
-.skills {
+.skills,
+.code,
+.education {
     padding: 40px 50px 40px 100px;
 }
 
@@ -214,20 +216,14 @@ img {
     border-radius: 30px;
 }
 
-.skills-item img {
-    margin: 0 20px 5px 0;
-}
-
-.skills-items {
+.skills-items,
+.education-items {
     line-height: 20px;
 }
 
-.skill-item {
+.skill-item,
+.education-item {
     padding: 10px;
-}
-
-.code {
-    padding: 40px 50px 40px 100px;
 }
 
 .code-text {
@@ -241,3 +237,11 @@ img {
     overflow: auto;
 }
 
+.education-subtitle {
+    padding: 10px;
+    font-weight: 700;
+}
+
+.education-text {
+    padding: 0 0 10px 0;
+}
