@@ -4,9 +4,250 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/favicon.ico">
+    <title>cv</title>    
 </head>
+
 <body>
-<p>Hello! This is my CV.</p>
+
+    <div class="wrapper">
+
+        <header class="header">
+
+            <div class="header-wrapper">
+
+                <nav class="nav">
+
+                    <ul class="nav-list">
+
+                        <li class="nav-item">
+                            <a href="#contacts" class="nav-link">Contacts</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#skills" class="nav-link">Skills</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#code" class="nav-link">Code</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#education" class="nav-link">Education</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#languages" class="nav-link">Languages</a>
+                        </li>
+
+                    </ul>
+
+                </nav>
+
+            </div>
+
+        </header>
+
+        <main class="main">
+
+            <div class="main-wrapper">
+
+                <div class="contacts" id="contacts">
+
+                    <h1 class="contacts-title">Sveta Tsapkovataya</h1>
+                    
+                    <div class="contacts-avatar">
+                        <img src="img/photo.jpg" alt="avatar">
+                    </div>
+
+                    <div class="contacts-items">
+
+                        <div class="contacts-item">
+                            <img src="img/location.png" alt="location">
+                            Sumy, Ukraine
+                        </div>
+
+                        <div class="contacts-item">
+                            <img src="img/phone.png" alt="phone">
+                            +38066XXXXXXX
+                        </div>
+
+                        <div class="contacts-item">
+                            <img src="img/mail.png" alt="mail">
+                            silana@gmail.com
+                        </div>
+
+                        <div class="contacts-item">
+                            <img src="img/telegram.png" alt="telegram">
+                            @S_i_l_a_n_a
+                        </div>
+
+                        <div class="contacts-item">
+                            <img src="img/github.png" alt="github">
+                            <a href="https://github.com/silanaa" class="contacts-link" target="_blank">silanaa</a>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="right-wrapper">
+
+                    <div class="summary" id="summary">
+
+                        <h2 class="summary-title">Junior Frontend Developer</h2>
+
+                        <p>I am currently working as a YouTube manager. But now my goal is to become a front-end developer. I am sure that I will
+                        be able to master this profession. Because I have such important qualities as a highly organized, self-motivated,
+                        dedication, craving for new knowledge.</p>
+
+                    </div>
+
+                    <div class="skills" id="skills">
+
+                        <h2 class="skills-title">Skills and Proficiency</h2>
+
+                        <div class="skills-items">
+
+                            <div class="skill-item">
+                                <img src="img/star.png" alt="star" width="20">
+                                HTML5, CSS3
+                            </div>
+
+                            <div class="skill-item">
+                                <img src="img/star.png" alt="star" width="20">
+                                Bootstrap
+                            </div>
+
+                            <div class="skill-item">
+                                <img src="img/star.png" alt="star" width="20">
+                                Figma
+                            </div>
+
+                            <div class="skill-item">
+                                <img src="img/star.png" alt="star" width="20">
+                                JavaScript
+                            </div>
+
+                            <div class="skill-item">
+                                <img src="img/star.png" alt="star" width="20">
+                                Git, GitHub
+                            </div>
+
+                            <div class="skill-item">
+                                <img src="img/star.png" alt="star" width="20">
+                                VS Code
+                            </div>
+
+                        </div>
+                        
+                    </div>
+
+                    <div class="code" id="code">
+
+                        <h2 class="code-title">Code example</h2>
+
+                        <p class="code-text">Odd-Even String Sort KATA from CODEWARS:</p>
+                        
+                        <pre class="code-code">
+const sortMyString = (S) => {
+let even = S.split('')
+            .filter((v, i) => i % 2 === 0)
+            .join('');
+let odd = S.split('')
+           .filter((v, i) => i % 2 !== 0)
+           .join('');
+return even + ' ' + odd;
+}
+                        </pre>
+                    
+                    </div>
+                    
+
+                </div>
+
+                <div class="education" id="education">
+
+                    <h2 class="education-title">Education</h2>
+
+                    <p class="education-subtitle">University:</p>
+
+                    <p class="education-text">2003-2008 Sumy State University, Faculty of Electronics and Information Technology - Information Technology</p>
+
+                    <p class="education-subtitle">Courses:</p>
+
+                    <div class="education-items">
+
+                        <div class="education-item">
+                            <img src="img/star.png" alt="star" width="20">
+                            Udemy Course «WEB developer 2022» (in progress)
+                        </div>
+
+                        <div class="education-item">
+                            <img src="img/star.png" alt="star" width="20">
+                            Udemy Course «JavaScript + React» (in progress)
+                        </div>
+
+                        <div class="education-item">
+                            <img src="img/star.png" alt="star" width="20">
+                            RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
+                        </div>
+
+                    </div>
+                    
+                </div>
+
+                <div class="languages" id="languages">
+
+                    <h2 class="languages-title">Languages</h2>
+
+                    <div class="languages-items">
+                    
+                        <div class="languages-item">
+                            <img src="img/star.png" alt="star" width="20">
+                            English A2 (B1 in process)
+                        </div>
+                    
+                        <div class="languages-item">
+                            <img src="img/star.png" alt="star" width="20">
+                            Ukrainian - native speaker
+                        </div>
+                    
+                        <div class="languages-item">
+                            <img src="img/star.png" alt="star" width="20">
+                            Russian - native speaker
+                        </div>
+                    
+                    </div>
+
+                </div>
+
+            </div>
+
+        </main>
+
+        <footer class="footer">
+
+            <div class="footer-github">
+                
+                <img src="img/github.png" alt="github" class="footer-github-logo">
+                <a href="https://github.com/silanaa" class="footer-github-link" target="_blank">GitHub</a>
+
+            </div>
+
+            <div class="footer-text">2022</div>
+
+            <div class="footer-rs">
+
+                <img src="img/rsschool.svg" alt="rsschool" class="footer-rs-logo">
+                <a href="https://rs.school/js/" class="footer-rs-link" target="_blank">RS School</a>
+
+            </div>
+
+        </footer>
+    
+    </div>
+
 </body>
 </html>
