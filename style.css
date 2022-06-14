@@ -277,3 +277,12 @@ footer {
     min-width: 100px;
     line-height: 50px;
 }
+
+@media (max-width: 768px) {
+    .contacts,
+    .education,
+    .languages,
+    .right-wrapper {
+        width: 100%;
+    }
+}
