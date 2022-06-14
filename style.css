@@ -37,7 +37,6 @@ html,
 body {
     height: 100%;
     width: 100%;
-    font-size: 100%;
     line-height: 1;
     font-size: 18px;
     font-family: Roboto, Arial, sans-serif;
@@ -101,6 +100,7 @@ img {
 
 /* --------------- */
 
+
 .wrapper {
     max-width: 1440px;
     margin: 0 auto;
@@ -129,12 +129,14 @@ img {
     text-transform: uppercase;
 }
 
-.contacts-item a {
+.contacts-item a,
+.footer a {
     transition: color 0.5s;
 }
 
 .nav-item a:hover,
-.contacts-item a:hover {
+.contacts-item a:hover,
+.footer a:hover {
     color: rgb(141, 104, 88);
 }
 
@@ -248,4 +250,30 @@ img {
 
 .education-text {
     padding: 10px 0 20px 0;
+}
+
+footer {
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-github-logo {
+    max-width: 50px;
+}
+
+.footer-github {
+    line-height: 50px;
+}
+
+.footer-rs {
+   display: flex; 
+   justify-content: flex-end;
+}
+
+.footer-rs-link {
+    min-height: 50px;
+    min-width: 100px;
+    line-height: 50px;
 }
